@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title Casa de Oración</title>
+
+</head>
+<body>
+
+    <div>
+        @RenderBody()
+
+
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row mb-5">
+
+
+                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+                    <h3 class="heading">Eventos</h3>
+                    <div class="block-21 d-flex mb-4">
+                        <div class="text">
+                            <h3 class="heading mb-0"><a href="events.html">Celebración del 5to Aniversario</a></h3>
+                            <div class="meta">
+                                <div><a href="#"><span class="ion-android-calendar"></span> Junio 28, 2020</a></div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+                    <h3 class="heading">Informacion de contacto</h3>
+                    <div class="block-23">
+                        <ul>
+                            <li><span class="icon ion-android-pin"></span><span class="text">El Mirador, Sector #7 s/n Calle Eucalipto, Ciudad de México, Méx., México</span></li>
+                            <li><a href="#"><span class="icon ion-ios-telephone"></span><span class="text">+52 55 59 45 46 28</span></a></li>
+                            <li><a href="#"><span class="icon ion-android-mail"></span><span class="text">maya.alberto.03@gmail.com</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-md-12 text-center copyright">
+
+                    <p class="float-md-left">
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> Todos los derechos Reservados </a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                    <p class="float-md-right">
+                        <a href="https://www.facebook.com/mario.albert0.22" class="fa fa-facebook p-2"></a>
+                        <a href="https://www.instagram.com/mario.alberto___/" class="fa fa-instagram p-2"></a>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
